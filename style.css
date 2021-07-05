@@ -5,10 +5,56 @@ body {
     line-height: 27px; /* non inheritable */
 }
 
+#top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    padding: 6px 6px 6px 6px;
+    margin-top: 6px;
+    margin-right: 6px;
+}
+
+#btnApps{
+    display: inline-block;
+    font-size: 16px;
+    padding: 6px 6px 6px 6px;
+}
+
+#sign-in-button {
+    color: #ffffff;
+    background-color: #1a73e8;
+    border-radius: 4px;
+    padding: 9px 23px 9px 23px;
+    font-size: 12px;
+    margin: 5px 5px 5px 5px;
+}
+
+#sign-in-button:hover {
+    background-color: #2b7de9;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-link {
+    padding: 6px 6px 6px 6px;
+}
+
+.top-link:hover {
+    text-decoration: underline;
+}
+
+.top-link:visited {
+    color: inherit;
+}
+
 img {
     max-height: 100%;
     max-width: 100%;
-    padding: 20px;
+    padding: 50px 20px 20px 20px;
 }
 
 .container {
