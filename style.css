@@ -1,8 +1,21 @@
 body {
+    width: auto;
+    height: auto;
     color: #3c4043;
     font-family: Arial, sans-serif;
     font-size: 14px;
     line-height: 27px; /* non inheritable */
+}
+
+a {
+    color: #70757a;
+    text-decoration: none;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+    padding: 50px 20px 20px 20px;
 }
 
 #top-bar {
@@ -35,10 +48,6 @@ body {
     background-color: #2b7de9;
 }
 
-a {
-    text-decoration: none;
-}
-
 .top-link {
     padding: 6px 6px 6px 6px;
 }
@@ -49,12 +58,6 @@ a {
 
 .top-link:visited {
     color: inherit;
-}
-
-img {
-    max-height: 100%;
-    max-width: 100%;
-    padding: 50px 20px 20px 20px;
 }
 
 .container {
@@ -98,4 +101,23 @@ img {
 
 .buttons:hover {
     box-shadow: 0 1px 1px rgba(0,0,0,.1)
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+    padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+    border: 1px solid #dfe1e5;
+}
+
+.footerLi {
+    font-size: 13px;
+    padding: 0rem 1rem 0rem 1rem;
 }
